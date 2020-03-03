@@ -7,6 +7,7 @@ authors = ["yonash2 <janos.molnar@prezi.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 click = "^7.0"
+pytesseract = "^0.3.2"
 
 [tool.poetry.dev-dependencies]
 ipdb = "^0.13.2"
