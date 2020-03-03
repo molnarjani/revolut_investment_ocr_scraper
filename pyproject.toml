@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "revolut_investment_reader"
+version = "0.1.0"
+description = "Reads transactions from pictures of Revolut investments"
+authors = ["yonash2 <janos.molnar@prezi.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
